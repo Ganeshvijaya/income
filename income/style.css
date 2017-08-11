@@ -1,0 +1,245 @@
+.floatleft { float: left }
+.floatright { float: right }
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0px solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+}
+body { font-family:Arial, Helvetica, sans-serif; }
+
+
+
+.header-area {
+    background: none repeat scroll 0 0 #f4f4f4;
+}
+.header-area a {
+    color: #888;
+}
+.user-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.user-menu li {
+    display: inline-block;
+}
+.user-menu li a {
+    display: block;
+    font-size: 13px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.user-menu li a i.fa {
+    margin-right: 5px;
+}
+.header-right ul.list-inline {
+    margin: 0;
+    text-align: right;
+}
+.header-right ul.list-inline li a {
+    display: block;
+    padding: 9px;
+}
+.header-right ul.list-inline li ul a {
+    padding: 5px 15px;
+}
+.header-right ul.list-inline li ul {
+    border: medium none;
+    border-radius: 0;
+    left: 50%;
+    margin-left: -50px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.mainmenu-area {background: none repeat scroll 0 0 #fbfbfb;
+font-family: "Roboto Condensed",sans-serif;
+text-transform: uppercase;
+width: 100%;
+z-index: 999;}
+
+
+
+.logo h1 {
+    font-size: 40px;
+    margin: 30px 0;font-weight: 400;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.amount-item {
+    border: 1px solid #ddd;
+    float: right;
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+}
+.amount-item a {
+    color: #666;
+}
+.amount {
+    color: #5a88ca;
+    font-weight: 700;
+}
+.amount-item i.fa {
+    margin-left: 15px;
+}
+
+
+.amount-item:hover {
+    background: none repeat scroll 0 0 #5a88ca;
+    border-color: #5a88ca;
+}
+.amount-item:hover a {
+    color: #fff;text-decoration: none
+}
+.amount-item:hover .amount {
+    color: #fff;
+}
+
+
+
+.mainmenu-area ul.navbar-nav li a {
+    color: #6e6a6a;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #5a88ca; color:#FFF;}
+.mainmenu-area .nav > li > a:focus {color: #FFF;}
+
+
+
+.square {
+  position: center;
+  width: 50%;
+  padding-top: 100px;
+}
+
+
+.footer-top-area .zigzag-bottom{background: #f4f4f4}
+.footer-top-area {background: none repeat scroll 0 0 #333;
+color: #999;
+padding: 35px 0 180px;}
+
+
+.footer-bottom-area {background: #000;color: #fff}
+.footer-about-us span {
+  color: #5a88ca;
+}
+.footer-wid-title {
+  font-family: raleway;
+  font-size: 30px;
+  font-weight: 100;color: #fff
+}
+
+.footer-about-us h2 {
+  font-weight: 200;
+}
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li {
+    border-bottom: 1px dashed #555;
+    padding: 5px 0;
+}
+.footer-menu a {
+    display: block;
+    padding: 5px 0;color: #999
+}
+
+
+.footer-social a {
+  background: none repeat scroll 0 0 #5a88ca;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+  width: 40px;border: 1px solid #5a88ca;
+}
+
+.footer-social a:hover {background-color: #222;border-color: #666}
+
+.footer-social {margin-top: 20px}
+
+
+a {color: #5a88ca}
+a:hover, a:focus {color: #17a78b}
+.footer-bottom-area {
+  background: none repeat scroll 0 0 #000;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.product-big-title-area {background: url(img/crossword.png) repeat scroll 0 0 #5a88ca}
+
+.product-bit-title h2 {
+  font-family: raleway;
+  font-size: 50px;
+  font-weight: 200;
+  margin: 0;
+  padding: 50px 0;color: #fff;
+}
+
+
+.copyright > p {
+  margin: 10px 0 0;
+}
+
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 60%;
+}
+
+.content {
+  position: center;
+  width: 35%;
+  height: 50%;
+}
+.postion{
+	text-align: center;
+	font-family: raleway;
+	}
+
+input[type="text"], input[type="number"], input[type="date"], textarea {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+input[type="submit"], button[type=submit] {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    padding: 11px 20px;
+    text-transform: uppercase;
+}
+input[type="submit"]:hover, button[type=submit]:hover {background-color: #222}
+	
